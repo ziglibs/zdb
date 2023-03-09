@@ -9,7 +9,7 @@ Warning
 This library is still in development. Please use at your own expense.
 
 zdb is inspired by TinyDB, meaning this library also utilises JSON files
-as its main storage. zdb is also designed and meant to go hand-in-hand with 
+as its main storage. zdb is also designed and meant to go hand-in-hand with
 [zorm](https://github.com/ziglibs/zorm), interoperable with one another.
 
 ## Structure
@@ -19,7 +19,7 @@ efficiency and optimisation strategies.
 
 Here's a mockup example for a lack of better words:
 
-```
+```md
 Database {
     Table {
         Item {
@@ -52,7 +52,7 @@ want to use this if:
 
 - You need the database cached during realtime
 - Are seeking to use your own alloc for memory allocation
-- Needing to hook in-between transactions with middleware 
+- Needing to hook in-between transactions with middleware
 
 ## Building
 
